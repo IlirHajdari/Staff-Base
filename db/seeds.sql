@@ -18,9 +18,9 @@ VALUES
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
-('John', 'Wick', 4, NULL),
-('Itachi', 'Uchiha', 2, NULL),
-('Hans', 'Solo', 6, NULL),
-('Percy', 'Jackson', 3, 1),
-('Randy', 'Savage', 1, 2),
-('Cloud', 'Strife', 5, 3);
+('GrandMaster', 'Yoda', 4, NULL),
+('Mace', 'Windu', 2, NULL),
+('Darth', 'Maul', 6, NULL),
+('Anakin', 'Skywalker', 3, 1),
+('Cpt.', 'Rex', 1, 2),
+('Leia', 'Organa', 5, 3);
