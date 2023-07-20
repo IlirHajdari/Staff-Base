@@ -37,12 +37,13 @@ To get a local copy running, follow the steps below!
   ```sh
   mysql -u root -p
   ```
+- Add schema to database
   ```sh
   source ./db/schema.sql
   ```
 - Add seed data to the database
   ```sh
-  souce ./db/seeds.sql
+  source ./db/seeds.sql
   ```
   - Make sure to change the `user:` and the `password:` in the `connection.js` file to whatever your personal information is for your MySQL database or you wont be able to connect.
 
